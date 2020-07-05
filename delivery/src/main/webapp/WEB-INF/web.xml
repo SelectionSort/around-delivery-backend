@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>rpc.RecommendItem</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>NewOrder</servlet-name>
+  	<display-name>NewOrder</display-name>
+  	<description></description>
+  	<servlet-class>rpc.NewOrder</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Login</servlet-name>
   	<url-pattern>/login</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>RecommendItem</servlet-name>
   	<url-pattern>/recommendation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NewOrder</servlet-name>
+  	<url-pattern>/NewOrder</url-pattern>
   </servlet-mapping>
 </web-app>
